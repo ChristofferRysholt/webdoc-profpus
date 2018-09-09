@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /index.html
+Disallow: /css
+Disallow: /images
+Disallow: /js
+Disallow: /videos
+

@@ -1,0 +1,140 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif; height: 100%;
+}
+
+html {height: 100%;}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 768px;
+
+}
+
+/* The hero image */
+.hero-image {
+    background-image: url("../images/heroimage.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+    height: 10%;
+    width: 45%;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+}
+
+.sectionVideos{line-height: 0;  
+}
+
+#videoSection-intro{line-height: 0;
+}
+
+.om {height: 768px;
+background-image: url("../images/blue.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;}
+
+h2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    color: white;
+    height: 40%;
+    width: 40%;
+    font-size: 600%
+}
+
+.info-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    height: 40%;
+    width: 70%;
+    font-size: 200%;
+    line-height: 1
+}
+#slutinfo-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: white;
+    height: 40%;
+    width: 40%;
+}
+
+
+.om-vaek {height: 768px;
+background-image: url("../images/gul.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;}
+
+.om-hov {height: 768px;
+background-image: url("../images/pink.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;}
+
+.om-fugl {height: 768px;
+background-image: url("../images/gul.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;}
+
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 1536px;
+	background: #BFF08E;
+}
+
+#outro {height: 100%;
+background-image: url("../images/storbund.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;}
