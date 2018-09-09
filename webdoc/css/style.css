@@ -64,6 +64,19 @@ background-repeat: no-repeat;
 background-size: cover;
 position: relative;}
 
+h1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    color: white;
+    height: 40%;
+    width: 70%;
+    font-size: 500%;
+    line-height: 1;
+}
+
 h2 {
     text-align: center;
     position: absolute;
@@ -88,7 +101,20 @@ h2 {
     font-size: 200%;
     line-height: 1
 }
-#slutinfo-text {
+.info-text-intro {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color: white;
+    height: 40%;
+    width: 70%;
+    font-size: 200%;
+    line-height: 1
+}
+
+h3 {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -96,7 +122,22 @@ h2 {
     transform: translate(-50%, -100%);
     color: white;
     height: 40%;
-    width: 40%;
+    width: 100%;
+    font-size: 500%;
+    line-height: 1;
+}
+
+#slutinfo-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: white;
+    height: 40%;
+    width: 70%;
+    font-size: 200%;
+    line-height: 1
 }
 
 
@@ -128,9 +169,43 @@ position: relative;}
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	height: 1536px;
+	height: 1000px;
 	background: #BFF08E;
 }
+
+h4 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    color: white;
+    height: 10%;
+    width: 100%;
+    font-size: 500%;
+    line-height: 1;
+}
+
+.find-spotify {width: 30%;
+  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-160%, 400%);}
+.find-itunes {width: 30%;
+  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 300%);}
+.find-youtube {width: 26%;
+  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(70%, 330%);}
+
+.imgfind{width: 100%}
 
 #outro {height: 100%;
 background-image: url("../images/storbund.jpg");
